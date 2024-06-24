@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("sentiment-model.pkl")
+model = joblib.load("Sentiment-model\sentiment-model.pkl")
 
 sentiment_labels = {'1':'Positive', '0': 'Negative'}
 

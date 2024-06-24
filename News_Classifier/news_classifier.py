@@ -1,7 +1,7 @@
 import joblib
 import streamlit as st
 
-saved_model = joblib.load("news-classification-model.pkl")
+saved_model = joblib.load("News_Classifier/news-classification-model.pkl")
 
 classifer_labels = {0: "Tech", 1: "Business",2:"Sports",3:"Entertainment",4:"Politics"}
 
